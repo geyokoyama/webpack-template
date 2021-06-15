@@ -1,0 +1,20 @@
+{
+  "name": "learn-webpack",
+  "version": "0.0.1",
+  "description": "project for learning webpack setup",
+  "author": "geyokoyama",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "dotenv-webpack": "^7.0.3",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.39.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0"
+  },
+  "scripts": {
+    "start": "webpack serve --config build-utils/webpack.config.js --env env=dev",
+    "build": "webpack --config build-utils/webpack.config.js --env env=prod"
+  }
+}
