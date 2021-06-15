@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "project for learning webpack setup",
   "author": "geyokoyama",
-  "license": "MIT",
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "dotenv-webpack": "^7.0.3",
