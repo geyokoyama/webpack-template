@@ -7,7 +7,10 @@ be used as a template for future projects.
 
 ## Usage
 
-Once cloned, you have 3 steps.
+**Important**: Don't forget to change the remote origin if you've cloned the repo!!
+`git remote set-url origin NEW_URL`
+
+Once cloned or forked, you have 3 steps.
 
 1. Install dependencies, e.g. `yarn install`.
 
