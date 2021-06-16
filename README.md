@@ -7,14 +7,22 @@ be used as a template for future projects.
 
 ## Usage
 
-Once cloned, you'll want to make changes to the following file(s) to personalize
-your project.
+Once cloned, you have 3 steps.
 
-* **README.md** - This very file. You'll want your own README for your project.
-* **package.json** - Change the name, author, and description for starters.
-* **webpack.common.js** - Under `build-utils/`. Change the _title_ under
-  _HtmlWebpackPlugin_ to your liking.
-* **.env.(development|production)** - Add your own environmental variables.
+1. Install dependencies, e.g. `yarn install`.
+
+2. Then, run `env-init` to create the following files:
+
+   * **.env.development** - Create this to add your own environmental variables.
+   * **.env.production** - Create this to add your own environmental variables.
+
+3. Finally, you'll want to make changes to the following file(s) to personalize
+your project:
+
+    * **README.md** - This very file. You'll want your own README for your project.
+    * **package.json** - Change the name, author, and description for starters.
+    * **webpack.common.js** - Under `build-utils/`. Change the _title_ under
+    _HtmlWebpackPlugin_ to your liking.
 
 Happy coding!
 
@@ -26,6 +34,7 @@ I use [yarn](https://yarnpkg.com/) as the node package manager.
 |---|---|
 |`start`|Start the development server|
 |`build`|Build project in the `dist/` directory|
+|`env-init`|Create `.env.development` and `.env.production`|
 
 ## Features (Modules & Plugins)
 

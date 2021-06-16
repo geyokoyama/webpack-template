@@ -22,7 +22,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Learn Webpack',
+      title: 'Webpack Template',
       template: path.resolve(__dirname, '../src/index.html')
     })
   ]

@@ -14,6 +14,7 @@
   },
   "scripts": {
     "start": "webpack serve --config build-utils/webpack.config.js --env env=dev",
-    "build": "webpack --config build-utils/webpack.config.js --env env=prod"
+    "build": "webpack --config build-utils/webpack.config.js --env env=prod",
+    "env-init": "touch .env.development .env.production"
   }
 }
