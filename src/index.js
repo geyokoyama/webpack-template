@@ -1,1 +1,3 @@
-console.log('hello world!');
+import './assets/styles/index.scss';
+
+const app = document.getElementById('#root');
